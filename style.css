@@ -1,0 +1,137 @@
+
+
+body {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}   
+
+header {
+    background: #ebebeb;
+  text-align: center;
+  width: 122%;
+  height: 100px;
+  margin-left: 150px;
+  margin-right: 180px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  position: relative;
+  top: -2px;
+  
+  }
+
+  header.header p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+
+  nav {
+    background: #ebebeb;
+    text-align: center;
+    width: 122%;
+  height: 100px;
+  margin-left: 150px;
+  margin-right: 180px;
+  margin-top: 8px;
+  margin-bottom: 22px;
+  position: relative;
+  top: -7px;
+}
+
+nav.nav p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+section {
+    background: #ebebeb;
+    width: 65%;
+    margin: 0 1.5% 24px 1.5%;
+    float: left;
+  height: 275px;
+  position: relative;
+  left: 135px;
+  text-align: center;
+  top: -11px;
+}
+
+
+aside {
+    background: #ebebeb;
+    margin: 0 1.5% 24px 1.5%;
+    float: right;
+  width: 54%;
+  height: 275px;
+  position: relative;
+  left: 375px;
+  top: -311px;
+  text-align: center;
+}
+
+footer {
+    background: #ebebeb;
+    width: 122%;
+  height: 100px;
+    clear: both;
+  margin-left: 150px;
+  margin-right: 180px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  position: relative;
+  top: -315px;
+  text-align: center;
+  right: 1px;
+  
+}
+
+footer.footer p {
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    width: 95%;
+    position: relative;
+    left: 12px;
+    height: 190px;
+    
+}
+
+h1 {
+    color:#777;
+    background: #ebebeb;
+    display: inline-block;
+    width: 95%;
+    height: 38px;
+}
+
+p {
+    color: #777;
+    background: #ebebeb;
+    display: inline-block;
+    width: 95%;
+    height: 38px;
+    
+    
+    
+  
+}
+
+
